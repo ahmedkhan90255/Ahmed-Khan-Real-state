@@ -1,0 +1,12 @@
+#container2 {
+    margin-top: 15%;
+    padding: 13% 10%;
+    display: flex;
+
+}
+.container2-div2 {
+    width: 495px;
+}
+.container2-div3 {
+    display: flex;
+}
