@@ -1,0 +1,40 @@
+#container3 {
+    padding: 40px 80px;
+}
+#container3 > h2 {
+    text-align: center;
+}
+#container3 > p {
+    text-align: center;
+    color: gray;
+}
+.container3-div1 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.container3-div2 {
+    display: flex;
+    justify-content: space-around;
+}
+.container3-div2 > p {
+    font-weight: 500px;
+}
+.forsale-btn {
+    border: 1px solid red;
+    background-color: red;
+    width: 120px;
+    height: 50px;
+    color: white;
+}
+.container3-div3 {
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width:450px) {
+    #container3 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

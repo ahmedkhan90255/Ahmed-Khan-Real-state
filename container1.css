@@ -42,3 +42,10 @@
     margin-top: 25px;
     color: white;
 }
+@media screen and (max-width:450px) {
+    #content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

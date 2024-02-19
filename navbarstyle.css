@@ -23,3 +23,9 @@ header {
     justify-content: space-between;
     width: 50%;
 }
+@media screen and (max-width:450px) {
+    .navdiv2 {
+        display: none;
+    }
+    
+}

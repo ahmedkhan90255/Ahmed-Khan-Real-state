@@ -1,0 +1,66 @@
+#container4 {
+    padding: 40px 80px;
+}
+#container4 > h2 {
+    text-align: center;
+}
+#container4 > p {
+    text-align: center;
+}
+.container4-div1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.booknow {
+    position: relative;
+    left: 80px;
+    bottom: 90px;
+    border: 1px solid red;
+    background-color: red;
+    /* width: 150px; */
+    height: 40px;
+    width: 120px;
+    color: white;
+    padding: 10px 20px;
+}
+.booknow1 {
+    position: relative;
+    position: relative;
+    bottom: 90px;
+    left: 260px;
+    border: 1px solid red;
+    background-color: red;
+    width: 120px;
+    height: 40px;
+    color: white;
+}
+.booknow2 {
+    position: relative;
+    position: relative;
+    bottom: 90px;
+    left: 450px;
+    border: 1px solid red;
+    background-color: red;
+    width: 120px;
+    height: 40px;
+    color: white;
+}
+.booknow3 {
+    position: relative;
+    position: relative;
+    bottom: 90px;
+    left: 650px;
+    border: 1px solid red;
+    background-color: red;
+    width: 120px;
+    height: 40px;
+    color: white;
+}
+@media screen and (max-width:450px) {
+    .container4-div1 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
